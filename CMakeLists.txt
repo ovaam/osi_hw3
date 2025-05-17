@@ -3,7 +3,7 @@ project(some)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(some main.cpp
+add_executable(some
         server.cpp
         common.h
         worker1_5.cpp
