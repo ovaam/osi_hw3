@@ -55,8 +55,8 @@ build CMakeFiles/some.dir/main.cpp.o: CXX_COMPILER__some_unscanned_Debug /Users/
   OBJECT_DIR = CMakeFiles/some.dir
   OBJECT_FILE_DIR = CMakeFiles/some.dir
 
-build CMakeFiles/some.dir/server5.cpp.o: CXX_COMPILER__some_unscanned_Debug /Users/ovaam/some/server5.cpp || cmake_object_order_depends_target_some
-  DEP_FILE = CMakeFiles/some.dir/server5.cpp.o.d
+build CMakeFiles/some.dir/server.cpp.o: CXX_COMPILER__some_unscanned_Debug /Users/ovaam/some/server.cpp || cmake_object_order_depends_target_some
+  DEP_FILE = CMakeFiles/some.dir/server.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/some.dir
   OBJECT_FILE_DIR = CMakeFiles/some.dir
@@ -79,6 +79,18 @@ build CMakeFiles/some.dir/worker3_5.cpp.o: CXX_COMPILER__some_unscanned_Debug /U
   OBJECT_DIR = CMakeFiles/some.dir
   OBJECT_FILE_DIR = CMakeFiles/some.dir
 
+build CMakeFiles/some.dir/monitor_client.cpp.o: CXX_COMPILER__some_unscanned_Debug /Users/ovaam/some/monitor_client.cpp || cmake_object_order_depends_target_some
+  DEP_FILE = CMakeFiles/some.dir/monitor_client.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/some.dir
+  OBJECT_FILE_DIR = CMakeFiles/some.dir
+
+build CMakeFiles/some.dir/client.cpp.o: CXX_COMPILER__some_unscanned_Debug /Users/ovaam/some/client.cpp || cmake_object_order_depends_target_some
+  DEP_FILE = CMakeFiles/some.dir/client.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/some.dir
+  OBJECT_FILE_DIR = CMakeFiles/some.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target some
@@ -87,7 +99,7 @@ build CMakeFiles/some.dir/worker3_5.cpp.o: CXX_COMPILER__some_unscanned_Debug /U
 #############################################
 # Link the executable some
 
-build some: CXX_EXECUTABLE_LINKER__some_Debug CMakeFiles/some.dir/main.cpp.o CMakeFiles/some.dir/server5.cpp.o CMakeFiles/some.dir/worker1_5.cpp.o CMakeFiles/some.dir/worker2_5.cpp.o CMakeFiles/some.dir/worker3_5.cpp.o
+build some: CXX_EXECUTABLE_LINKER__some_Debug CMakeFiles/some.dir/main.cpp.o CMakeFiles/some.dir/server.cpp.o CMakeFiles/some.dir/worker1_5.cpp.o CMakeFiles/some.dir/worker2_5.cpp.o CMakeFiles/some.dir/worker3_5.cpp.o CMakeFiles/some.dir/monitor_client.cpp.o CMakeFiles/some.dir/client.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.0
   OBJECT_DIR = CMakeFiles/some.dir
   POST_BUILD = :
